@@ -1,20 +1,3 @@
-.wrapper{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    grid-template-columns: auto;
-    grid-template-areas: "sidebar navbar navbar navbar",
-                         "sidebar main main main",
-                         "sidebar main main main";
-}
-
-.sidebar-grid{
-    grid-area: sidebar;
-}
-
-.navbar-grid{
-    grid-area: navbar;
-}
-
-.main-grid{
-    grid-area: main;
+li:hover{
+    background-color: rgb(10, 137, 255);
 }
