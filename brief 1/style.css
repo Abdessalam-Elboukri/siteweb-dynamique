@@ -1,7 +1,20 @@
 li:hover{
-    background-color: rgb(53, 158, 255);
+    background-color: rgb(0, 166, 255);
     border-radius: 5px;
+    
 }
+.search-ico form input{
+    position: relative;
+}
+.search-ico form input::after{
+    content: url("./images/search-thin.svg");
+    position: absolute;
+    width: 30px;
+    color: black;
+    left: 50px;
+
+}
+
 @media (max-width:690px) {
     .ecls{
         transform: rotate(90deg);

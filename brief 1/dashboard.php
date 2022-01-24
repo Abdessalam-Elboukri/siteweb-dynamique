@@ -17,70 +17,15 @@
 <body>
     <section class="container-fluid">
         <div class="row">
-            <div class="d-flex flex-column col-lg-2 col-md-4 col-sm-4 bg-sidebar">
-                <div class="mt-2">
-                    <h2 class="h2 border-start ps-2">E-class</h2>
-                </div>
-                <div class="d-flex flex-column align-items-center">
-                    <img src="./images/pexels-photo-2379004 1.png" class="rounded-circle">
-                    <h5 class="mt-2">Abdo</h5>
-                    <p>Admin</p>
-                </div>
-                <nav>
-                    <ul class="nav d-flex flex-column mt-2">
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-home"></i>
-                                Home</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-bookmark" aria-hidden="true"></i>
-                                Courses</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                Students</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-usd" aria-hidden="true"></i>
-                                Payment</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                Report</a>
-                        </li>
-                        <li>
-                            <a href="" class="btn text-start nav-link text-dark">
-                                <i class="fa fa-sliders" aria-hidden="true"></i>
-                                Setting</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="mt-3">
-                    <a href="" class="btn text-start nav-link text-dark">Logout
-                        <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12">
-                <div class="d-flex justify-content-between mt-3">
-                    <div class="">
-                        <a href="#"><i class="fa fa-chevron-circle-left text-muted align-content-center fs-4"
-                                aria-hidden="true"></i></a>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center gap-3">
-                        <form>
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-                        <div>
-                            <a href="#"><i class="fa fa-bell-o text-muted fs-4"></i></a>
-                        </div>
-                    </div>
-                </div>
+            
+            <!-- ============================= -->
+            <?php include 'sidebar.php'; ?>
+            <!-- ============================= -->
+
+            <div class="col-10">
+            <!-- ============================= -->
+            <?php include 'navbar.php'; ?>
+            <!-- ============================= -->
                 <div class="row mt-3 ">
                     <div class="col-sm-10 col-md-5 col-lg-3">
                         <div class="card" style="font-size: 1.5rem; background-color: #F0F9FF

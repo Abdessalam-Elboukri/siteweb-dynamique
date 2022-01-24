@@ -40,7 +40,7 @@
                         <label for="" class="ms-3">Remember me</label>
                     </div>
                     <div class="mt-3">
-                        <button class="btn btn-info w-100 rounded-3 border-1 text-white text-uppercase">Sign in</button>
+                        <a href="students.php" class="btn btn-info w-100 rounded-3 border-1 text-decoretion-none text-white text-uppercase" >Sign in</a>
                     </div>
                     <div class="text-center mt-3">
                         <p class="text-muted fs-6">Forgot your password?<a href="#" class="text-info">Reset Password</a>
