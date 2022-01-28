@@ -8,13 +8,13 @@
     <title>E-class</title>
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap.css">
     <script src="./bootstrap5/js/bootstrap.min.js"></script>
-    <script src="./bootstrap5/css/bootstrap.css"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <section class=" d-flex justify-content-center align-items-center back">
-        <div class="h-85 col- col-lg-5 col-sm-8 col-md-6 ">
+        <div class=" col-lg-4 col-sm-8 col-md-6 ">
             <div class="bg-light p-4 shadow" style=" border-radius: 20px;">
                 <div class=" d-flex flex-column">
                     <div class="ms-4">
@@ -37,10 +37,10 @@
                     </div>
                     <div class="d-flex align-items-center mt-3">
                         <input type="checkbox">
-                        <label for="" class="ms-3">Remember me</label>
+                        <label for="" class="ms-3" style="font-size:13px">Remember me</label>
                     </div>
                     <div class="mt-3">
-                        <a href="students.php" class="btn btn-info w-100 rounded-3 border-1 text-decoretion-none text-white text-uppercase" >Sign in</a>
+                        <a href="dashboard.php" class="btn btn-info w-100 rounded-3 border-1 text-decoretion-none text-white text-uppercase" >Sign in</a>
                     </div>
                     <div class="text-center mt-3">
                         <p class="text-muted fs-6">Forgot your password?<a href="#" class="text-info">Reset Password</a>

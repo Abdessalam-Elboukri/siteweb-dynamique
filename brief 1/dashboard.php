@@ -26,7 +26,7 @@
             <!-- ============================= -->
             <?php include 'navbar.php'; ?>
             <!-- ============================= -->
-                <div class="row mt-3 ">
+                <div class="row mt-3 gap-2 gap-sm-0 overflow-scroll" style="height:88vh;">
                     <div class="col-sm-10 col-md-5 col-lg-3">
                         <div class="card" style="font-size: 1.5rem; background-color: #F0F9FF
                         ; color: #74C1ED;">
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-10 col-md-5 col-lg-3">
+                    <div class="col-sm-10 col-md-5 col-lg-3 ">
                         <div class="card" style="font-size: 1.5rem; background-color: #FEF6FB
                         ; color: #EE95C5;">
                             <div class="card-body">
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-10 col-md-5 col-lg-3">
+                    <div class="col-sm-10 col-md-5 col-lg-3 ">
                         <div class="card" style="font-size: 1.5rem; background-color: #FEFBEC
                         ; color: #00C1FE;">
                             <div class="card-body">
@@ -63,9 +63,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-10 col-md-5 col-lg-3">
+                    <div class="col-sm-10 col-md-5 col-lg-3 ">
                         <div class="card bg-primary" style="font-size: 1.5rem;
-                        ; color: #fff;">
+                        ; color: #fff; background: linear-gradient(-120deg , rgb(250, 255, 193), rgb(0, 193, 254));;">
                             <div class="card-body">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <p class="text-muted">Users</p>

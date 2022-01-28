@@ -1,6 +1,6 @@
 <?php 
    echo '
-   <aside class="d-flex flex-column col-2 p-2 bg-sidebar position-fixed overflow-scroll" style="height:600px;" >
+   <aside class="d-flex flex-column col-2 p-2 bg-sidebar" >
         <div class="mt-2 w-100">
             <h2 class="h2 border-start ps-2 ecls ">E-class</h2>
         </div>

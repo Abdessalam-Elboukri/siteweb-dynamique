@@ -26,16 +26,16 @@
         <!-- ============================= -->
                 <div class="row mt-5 flex-row">
                     <div class="title col-lg-4 col-md-6 col-sm-12">
-                        <h2 style="font-size:2vw">Payements Details</h2>
+                        <h2 style="font-size:19px; ">Payements Details</h2>
                     </div>
                     <div class="d-flex gap-2 align-items-center justify-content-end col-lg-8 col-md-6 col-sm-12">
                         <div style="font-size: 1.2rem;">
-                            <i class="fa fa-chevron-up fs-6 "  aria-hidden="true"></i>
+                            <i class="fa fa-sort text-primary" aria-hidden="true"></i>
                         </div>
                     </div>
                     <hr class="m-auto" style="width: 97%;">
                 </div>
-                <div class="row mt-2 px-5">
+                <div class="row mt-2 px-5 table-responsive">
                     <table class="table">
                         <thead>
                             <tr class=" text-muted">
